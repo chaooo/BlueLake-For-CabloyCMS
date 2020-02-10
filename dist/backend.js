@@ -130,8 +130,8 @@ module.exports = appInfo => {
   // theme
   config.theme = {
     _theme: {
-      name: 'cms-themeblog',
-      url: 'https://github.com/zhennann/egg-born-module-cms-themeblog',
+      name: 'BlueLake',
+      url: 'https://github.com/chaooo/BlueLake-For-CabloyCMS',
     },
   };
 
