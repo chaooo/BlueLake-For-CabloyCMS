@@ -1,18 +1,29 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+node_modules
+coverage
+*.log
+npm-debug.log
+.logs
+logs
+*.swp
+run
+*-run
+.idea
+.DS_Store
+.tmp
+docs/CONTRIBUTING.md
+docs/node_modules
+docs/README.md
+docs/db.json
+docs/source/release/index.md
+docs/source/member_guide.md
+docs/source/_data/versions.yml
+docs/**/contributing.md
+docs/public
+docs/plugins.png
 
-# Other files and folders
-.settings/
+package-lock.json
+yarn.lock
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+.sync-config.cson
+sftp-config.json
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
